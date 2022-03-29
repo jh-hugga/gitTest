@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>국내숙소</title>
+  <link rel="stylesheet" href="css/Accomodation.css">
+</head>
+<body>
+  <div id=container>
+    <header id="header">
+      <div class="logo">
+        <img src="images/yanoljalogo-2.png">
+        <ul class="submenu">
+          <li><a href="#">회원가입</a></li>
+          <li><a href="#">예약내역</a></li>
+          <li><a href="#">로그인</a></li>
+        </ul>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">국내숙소</a></li>
+          <li><a href="#">즐길거리</a></li>
+          <li><a href="#">해외여행</a></li>
+          <li><a href="#">이벤트</a></li>
+        </ul>  
+      </nav>
+    </header>
+    <div class="select">
+      <form>
+        <label for="All of Seoul">호텔</label>
+        <select id="selectbox">
+          <br>
+          <option value="a1">서울전체</option>
+          <option value="a1">지역2</option>
+          <option value="a1">지역2</option>
+          <option value="a1">지역4</option>
+          <option value="a1">지역5</option>
+        </select>
+      </form>
+    </div>
+    <section>
+      <div id="hotelmenu">
+        <ul class="submenu2">
+          <li class="icon1"><a href="#">호텔</a></li>
+          <li class="icon2"><a href="#">모텔</a></li>
+          <li class="icon3"><a href="#">펜션</a></li>
+          <li class="icon4"><a href="#">리조트/콘도</a></li>
+          <li class="icon5"><a href="#">게하/한옥</a></li>
+          <li class="icon6"><a href="#">캠핑/글램핑</a></li>
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div id="hoteloption">
+          <div class="date box1">
+            <label for="check-in"><h3>날짜</h3></label>
+              <input type="date" id="checkl-in">
+          </div>
+          <div class="personcount box2">
+            <form>
+              <label for="count"><h3>인원수</h3></label>
+              <select id="selectbox2">
+                <br>
+                <option value="a1">1명</option>
+                <option value="a1">2명</option>
+                <option value="a1">3명</option>
+                <option value="a1">5명</option>
+                <option value="a1">6명</option>
+              </select>
+            </form>
+          </div>
+          <div class="hoteltype box3">
+            <h3>호텔유형</h3>
+            <div class="typelist">
+              <ul>
+                <li><label><input type="checkbox" name="type" value="2성급" > 2성급</label></li>
+                <li><label><input type="checkbox" name="type" value="3성급" > 3성급</label></li>
+                <li><label><input type="checkbox" name="type" value="4성급" > 4성급</label></li>
+              </ul>
+              <ul>
+                <li><label><input type="checkbox" name="type" value="5성급" checked> 5성급</label></li>
+                <li><label><input type="checkbox" name="type" value="특 1급"> 특 1급</label></li>
+                <li><label><input type="checkbox" name="type" value="특급"> 특급</label></li>
+              </ul>
+            </div>
+          </div>
+          <div class="detailedconditions box4">
+              <h3>상세조건</h3>
+              <div class="btn_group">
+                <button class="btn1"><a href="#">초기화</a></button>
+                <button class="btn2"><a href="#">적용</a></button>
+            </div>
+        </div>
+        <div class="bedconditions box5">
+          <h3>배드타입</h3>
+          <ul>
+            <li><a href="#"><img src="images/single.png"></a></li>
+            <li><a href="#"><img src="images/double.png"></a></li>
+            <li><a href="#"><img src="images/twin.png"></a></li>
+            <li><a href="#"><img src="images/ondol.png"></a></li>
+          </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="arrange">
+      <form>
+        <label for="arrange"><h3>정렬</h3></label>
+        <select id="arrange1">
+          <br>
+          <option value="recommend">추천순</option>
+          <option value="distance">거리순</option>
+          <option value="lowprice">가격 낮은순</option>
+          <option value="hightprice">가격 높은순</option>
+        </select>
+      </form>
+    </section>
+    <div id="hotellist">
+      <ul class="hotelproduct">
+        <li>
+          <a href="#"><img src="images/hotel1.png" alt="호텔1"></a>
+          <a href="#"><p class="eft1"> 파크 하얏트 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.5</span></a>
+          <br>
+          <a href="#"><p class="eft4"><b> 386,650</b><span style="font-size: small;">원</span>
+            </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel2.png" alt="호텔2"></a>
+          <a href="#"><p class="eft1"> 그랜드 워커힐 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"> <span class="accent2"> 4.6</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>435,600원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>21</b>%~</span>
+            <b> 363,000</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel3.png" alt="호텔3"></a>
+          <a href="#"><p class="eft1"> 롯데 호텔 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.6</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>500,500원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>42</b>%~</span>
+            <b> 290,400</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><img src="images/hotel4.png" alt="호텔4"></a>
+          <a href="#"><p class="eft1"> 인터컨티넨탈 서울 코엑스 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"> <span class="accent2"> 4.8</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>580,800원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>58</b>%~</span>
+            <b> 242,000</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel5.png" alt="호텔5"></a>
+          <a href="#"><p class="eft1"> 인터컨티넨탈 서울 파르나스 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.7</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>550,000원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>54</b>%~</span>
+            <b> 248,050</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel6.png" alt="호텔6"></a>
+          <a href="#"><p class="eft1"> JW 메리어트 호텔 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.8</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>605,000원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>48%</b>~</span>
+            <b> 314,600</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><img src="images/hotel7.png" alt="호텔7"></a>
+          <a href="#"><p class="eft1"> 포시즌즈 호텔 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.5</span></a>
+          <br>
+          <a href="#"><p class="eft4"><b> 385,000</b><span style="font-size: small;">원</span>
+            </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel8.png" alt="호텔8"></a>
+          <a href="#"><p class="eft1"> 밀레니엄 힐튼 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"> <span class="accent2"> 4.7</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>420,000원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>50</b>%~</span>
+            <b> 206,300</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel9.png" alt="호텔9"></a>
+          <a href="#"><p class="eft1"> 노보텔 엠버서드 서울 용산 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.7</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>345,400원</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>65</b>%~</span>
+            <b> 118,800</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><img src="images/hotel10.png" alt="호텔10"></a>
+          <a href="#"><p class="eft1"> 서울 웨스틴조선호텔 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.8</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>500,000</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>54</b>%~</span>
+            <b> 228,690</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel11.png" alt="호텔11"></a>
+          <a href="#"><p class="eft1"> 서울 신라 호텔 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"> <span class="accent2"> 4.9</span></a>
+          <br>
+          <a href="#"><p class="eft4"><b> 484,000</b><span style="font-size: small;">원</span>
+            </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel12.png" alt="호텔12"></a>
+          <a href="#"><p class="eft1"> 롯데호텔 서울 이그제큐티브 타워 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.9</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>715,000</del></p>
+          <p class="eft3"><span class="accent3"><b>49</b>%~</span>
+            <b> 363,000</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#"><img src="images/hotel13.png" alt="호텔13"></a>
+          <a href="#"><p class="eft1"> 시그니엘 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"> <span class="accent2"> 4.9</span></a>
+          <br>
+          <a href="#"><p class="eft4"><b> 750,200</b><span style="font-size: small;">원</span>
+            </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel14.png" alt="호텔14"></a>
+          <a href="#"><p class="eft1"> 더 플리자 호텔 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"> <span class="accent2"> 4.9</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>550,000</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>62</b>%~</span>
+            <b> 205,700</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+        <li>
+          <a href="#"><img src="images/hotel15.png" alt="호텔15"></a>
+          <a href="#"><p class="eft1"> 콘래드 서울 <span class="accent1">5성급</span></p></a>
+          <a href="#"><img src="images/star.png" alt="ranking"><span class="accent2"> 4.9</span></a>
+          <br>
+          <a href="#"><p class="eft2"><del>545,500</del></p></a>
+          <a href="#"><p class="eft3"><span class="accent3"><b>42</b>%~</span>
+            <b> 321,200</b><span style="font-size: small;">원</span>
+          </p></a>
+        </li>
+      </ul>
+    </div>
+    <footer>
+      <div class="footer">
+        <img src="images/logofooter.png" alt="logofooter">
+        <p class="footer1">(주)야놀자 |대표이사 : 이수진 | 사업자 등록번호 : 220-87-42885 | 통신판매업신고 : 강남-14211호 | 메일 : help@yanolja.com
+          <br>관광사업자 등록번호 : 제2016-31호 | 주소 : 서울 강남구 테헤란로 108길 42 | 호스팅서비스 제공자 : 주식회사 야놀자<br>
+          고객센터 : 1644-1346 (오전 9시 - 익일 새벽 3시)</p>
+          <ul class="footer2">
+            <li><a href="#">회사소개</a></li> 
+            <li><a href="#">광고제휴문의</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">청소년 보호 정책</a></li>
+            <li><a href="#">서비스 이용약관</a></li>
+            <li><a href="#">위치정보이용약관</a></li>
+            <li><a href="#">사업자 정보확인</a></li>
+          </ul>
+          <ul class="footersns">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+            <li><a href="#"><img src="images/youtube.png"></a></li>
+            <li><a href="#"><img src="images/navertv.png"></a></li>
+            <li><a href="#"><img src="images/naverblog.png"></a></li>
+          </ul>
+          <div class="footer3">
+            <p>(주) 야놀자는 통신판매 중개자로서 통신판매의 당사자가 아니며 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
+            </p><br>
+            <p>(주)야놀자가 소유/운영/관리하는 웹사이트 및 앱 내의 상품/판매자/이벤트 정보, 디자인 및 화면의 구성, UI를 포함하여 일체의 콘텐츠에 대한 
+              <br>무단 복제, 배포, 방송 또는 전송, 스크래핑 등의 행위는 저작권법 및 콘텐츠산업 진흥법 등 관련 법령에 의하여 엄격히 금지 됩니다.
+            </p>
+            <ul class="footer4">
+              <li><a href="#">콘텐츠산업 진흥법에 따른 표시</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+  </div>
+</body>
+</html>

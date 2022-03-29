@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>야놀자 리뉴얼</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+
+   <!--제이쿼리 불러오기-->
+   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+   <script src="js/jquery-1.12.4.min.js"></script>
+   <script src="js/jquery-ui-1.12.1.min.js"></script>
+   <script src="js/main.js"></script>
+
+
+   <!--슬릭 슬라이더 불러오기-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+  <div id=container>
+    <header class="headerWrap">
+      <div class="headerInner">
+      <h1 class="logo">
+        <a href="index.html" tittle="메인 홈으로 이동">
+          <img src="images/logo.png" alt="yanolja" class="pc">
+        </a>
+      </h1>
+
+      <ul class="submenu">
+        <li><a href="#">회원가입</a></li>
+        <li><a href="#">예약내역</a></li>
+        <li><a href="#">로그인</a></li>
+      </ul>
+
+      <nav class="gnb">
+        <ul class="mainMenu">
+          <li>
+            <a href="local.html" title="야놀자 메인메뉴">국내숙소</a>
+          </li>
+          <li>
+            <a href="exciting.html" title="야놀자 메인메뉴">즐길거리</a>
+          </li>
+          <li>
+            <a href="global.html" title="야놀자 메인메뉴">해외여행</a>
+          </li>
+          <li>
+            <a href="event.html" title="야놀자 메인메뉴">이벤트</a>
+          </li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+    <section class=visual>
+      <div class="mainvisual">
+        <ul class="search">
+          <li>
+            <label for="location"><span><b>위치</b></span><br><p>어디로 여행가세요?</p></label>
+              <input type="text" id="location">
+          </li>
+          <li>
+            <label for="checkl-in"><span><b>체크인</b></span><br><p>날짜 입력</p></label>
+              <input type="date" id="checkl-in">
+          </li>
+          <li>
+            <label for="checkl-out"><span><b>체크아웃</b></span><br><p>날짜 입력</p></label>
+              <input type="date" id="check-out">
+          </li>
+          <li>
+            <label for="personel"><span><b>인원</b></span><br><p>인원 추가</p></label>
+              <input type="text" id="personel">
+          </li>
+          <li>
+            <img src="images/search-2.png" alt="search-2">
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    
+
+    <section>
+      <article class="travel">
+        <h2>가까운 여행지 둘러보기</h2>
+        <table>
+          <tr>
+            <td><a href="#"><img src="images/seoul.jpg" alt="seoul"></a></td>
+            <td><a href="#"><b>서울</b><br>차로 30분 거리</a></td>
+            <td><a href="#"><img src="images/busan.jpg" alt="busan"></a></td>
+            <td><a href="#"><b>부산</b><br>차로 5시간 거리</a></td> 
+            <td><a href="#"><img src="images/yangyang.jpg" alt="daegu"></a></td>
+            <td><a href="#"><b>양양군</b><br>차로 2.5시간 거리</a></td>
+            <td><a href="#"><img src="images/sokcho.jpg" alt="yangyang"></a></td>
+            <td><a href="#"><b>속초시</b><br>차로 3시간 거리</a></td>
+          </tr>
+          <tr>
+            <td><a href="#"><img src="images/jejudo.jpg" alt="jejudo"></a></td>
+            <td><a href="#"><b>제주도</b><br>차로 7시간 거리</a></td>
+            <td><a href="#"><img src="images/gyeongju.jpg" alt="gyeongju"></a></td>
+            <td><a href="#"><b>경주</b><br>차로 7시간 거리</a></td>
+            <td><a href="#"><img src="images/daegu.jpg" alt="deagu"></a></td>
+            <td><a href="#"><b>대구</b><br>차로 3시간 거리</a></td>
+            <td><a href="#"><img src="images/incheon.jpg" alt="incheon"></a></td>
+            <td><a href="#"><b>인천</b><br>차로 1시간 거리</a></td>
+          </tr>
+        </table>
+      </article>
+
+      <article id="search3">
+        <div class="contents1">
+        <a href="#"><img src="images/search-4.png" alt="유연한검색"></a>
+        </div>
+        <div class="contents2">
+        <p>여행의 모든 것, 한 번에 쉽게<br>야놀자가 도와드리겠습니다!</p>
+      </div>
+      </article>
+
+
+      <div class="contents-box">
+       
+        <div class="con">
+          <h2>독특한 여행은 야놀자에서!</h2>
+          <div class="slider-box-1">
+            <div class="arrows">
+              <div class="btn-arrow btn-arrow-left"><img src="images/img-left.png" alt="왼쪽 화살표"></div>
+              <div class="btn-arrow btn-arrow-right"><img src="images/img-right.png" alt=" 화살표"></div>
+              
+            </div>
+            <div class="slick">
+             <div class="item">
+              <div class="img-box">
+                <img src="images/con_img1.png" alt="자연친화적인 숙소">
+                <!-- <figcaption>
+                  <p></p>
+                  <div class="heading">
+                    <h2>자연친화적인<span> 숙소</span></h2>
+                  </div>
+                </figcaption> -->
+              </div>
+             </div>
+             <div class="item">
+              <div class="img-box">
+                <img src="images/con_img2.png" alt="반려동물 숙소">
+                <!-- <figcaption>
+                  <p></p>
+                  <div class="heading">
+                    <h2>반려동물<span> 숙소</span></h2>
+                  </div>
+                </figcaption> -->
+              </div>
+             </div>
+             <div class="item">
+              <div class="img-box">
+                <img src="images/con_img3.png" alt="독채 풀빌라">
+                <!-- <figcaption>
+                  <p></p>
+                  <div class="heading">
+                    <h2>반려동물<span> 숙소</span></h2>
+                  </div>
+                </figcaption> -->
+              </div>
+             </div>
+             <div class="item">
+              <div class="img-box">
+                <img src="images/con_img1.png" alt="4">
+                <!-- <figcaption>
+                  <p></p>
+                  <div class="heading">
+                    <h2>반려동물<span> 숙소</span></h2>
+                  </div>
+                </figcaption> -->
+              </div>
+             </div>
+             <div class="item">
+              <div class="img-box">
+                <img src="images/con_img2.png" alt="5">
+                <!-- <figcaption>
+                  <p></p>
+                  <div class="heading">
+                    <h2>반려동물<span> 숙소</span></h2>
+                  </div>
+                </figcaption> -->
+              </div>
+             </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <article class="enjoy">
+        <h2>즐길거리 둘러보기</h2>
+        <ul class="product">
+          <li>
+            <a href="#"><img src="images/product1.jpg" alt="상품1"></a>
+            <p class="eft1">[용인] 캐리비안베이 골드<br>종일이용권 (방문 날짜 지정)</p>
+            <p class="eft2">야놀자특가</p><br>
+            <p class="eft3"><span class="accent1"><b>60</b>%</span>
+              <b> 29,900</b><span style="font-size: small;">원</span>
+            </p>
+          </li>
+          <li><a href="#"><img src="images/product2.jpg" alt="상품2"></a>
+            <p class="eft1">[서울잠실] 서울 스카이 8월</p>
+            <p class="eft2">야놀자특가</p><br>
+            <p class="eft3"><span class="accent1"><b>33</b>%</span>
+              <b> 18,000</b><span style="font-size: small;">원</span>
+            </p>
+          </li>
+          <li><a href="#"><img src="images/product3.jpg" alt="상품3"></a>
+            <p class="eft1">[용인] 로만바스 평일 온천<br>이용권 (8/17~8/31)</p>
+            <p class="eft2">야놀자특가</p><br>
+            <p class="eft3"><span class="accent1"><b>13</b>%</span>
+              <b>7,000</b><span style="font-size: small;">원</span>
+            </p>
+          </li>
+          <li><a href="#"><img src="images/product4.jpg" alt="상품4"></a>
+            <p class="eft1">[전국지점] 주렁주렁 테마파크</p>
+            <p class="eft2">야놀자특가</p><br>
+            <p class="eft3"><span class="accent1"><b>30</b>%</span>
+              <b>11,900</b><span style="font-size: small;">원</span>
+            </p>
+          </li>
+        </ul>
+      </article>
+
+      <article class="eventbanner">
+        <div class="event1">
+        <h2>이벤트</h2>
+        <a href="#"><img src="images/event1.jpg" alt="event1"></a>
+      </div>
+      </article>
+      <article class="eventbanner2">
+        <div class="event2">
+        <h2>할인혜택</h2>
+        <a href="#"><img src="images/event2.jpg" alt="event2"></a>
+      </div>
+      </article>
+    </section>
+    <footer>
+      <div class="footer">
+        <div class="footerinner">
+        <img src="images/logofooter.png" alt="logofooter">
+        <p class="footer1">(주)야놀자 |대표이사 : 이수진 | 사업자 등록번호 : 220-87-42885 | 통신판매업신고 : 강남-14211호 | 메일 : help@yanolja.com
+          <br>관광사업자 등록번호 : 제2016-31호 | 주소 : 서울 강남구 테헤란로 108길 42 | 호스팅서비스 제공자 : 주식회사 야놀자<br>
+          고객센터 : 1644-1346 (오전 9시 - 익일 새벽 3시)</p>
+          <ul class="footer2">
+            <li><a href="#">회사소개</a></li> 
+            <li><a href="#">광고제휴문의</a></li>
+            <li><a href="#">인재채용</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">청소년 보호 정책</a></li>
+            <li><a href="#">서비스 이용약관</a></li>
+            <li><a href="#">위치정보이용약관</a></li>
+            <li><a href="#">사업자 정보확인</a></li>
+          </ul>
+          <ul class="footersns">
+            <li><a href="#"><img src="images/facebook.png"></a></li>
+            <li><a href="#"><img src="images/instagram.png"></a></li>
+            <li><a href="#"><img src="images/youtube.png"></a></li>
+            <li><a href="#"><img src="images/navertv.png"></a></li>
+            <li><a href="#"><img src="images/naverblog.png"></a></li>
+          </ul>
+          <div class="footer3">
+            <p>(주) 야놀자는 통신판매 중개자로서 통신판매의 당사자가 아니며 상품의 예약, 이용 및 환불 등과 관련한 의무와 책임은 각 판매자에게 있습니다.
+            </p><br>
+            <p>(주)야놀자가 소유/운영/관리하는 웹사이트 및 앱 내의 상품/판매자/이벤트 정보, 디자인 및 화면의 구성, UI를 포함하여 일체의 콘텐츠에 대한 
+              <br>무단 복제, 배포, 방송 또는 전송, 스크래핑 등의 행위는 저작권법 및 콘텐츠산업 진흥법 등 관련 법령에 의하여 엄격히 금지 됩니다.
+            </p>
+            <ul class="footer4">
+              <li><a href="#">콘텐츠산업 진흥법에 따른 표시</a></li>
+            </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
